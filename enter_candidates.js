@@ -18,6 +18,7 @@ function enterCandidates(code)
 			if (row.getElementsByClassName("textRight")[0].firstChild.innerHTML == search)
 			{
 				rows[i].getElementsByTagName("input")[1].checked = true;
+				console.log(`Added entry for ${candidates[c]}`);
 			}
 	
 		}
